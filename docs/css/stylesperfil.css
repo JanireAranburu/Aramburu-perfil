@@ -117,22 +117,25 @@ h1 {
       background-size: cover;
       width: 60%;
       height: 90vh;
-      padding: 2rem;   
+      padding: 2rem; 
+      position: relative;  
   }
 
-  /* SI PONGO ESTO PARA EL FONDO AMARILLO SE ME MUEVEN TODOS LOS ELEMENTOS PARA ABAJO
+  /*SI PONGO ESTO PARA EL FONDO AMARILLO SE ME MUEVEN TODOS LOS ELEMENTOS PARA ABAJO*/
   
   .imagene-container:before {
     background: #FFEB56;
     content:'';
     display: block;
     height: 45rem;
-    width: 180rem;
+    width: 130rem;
     position: absolute;
     z-index: -1;
+    left: -20%;
+    bottom: 18%;
     
   }
-  */
+  
 
   
   .header{
